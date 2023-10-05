@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box
+
+  }
+  div#resume{
+    font: 15px Verdana;
+    line-height: 24px;
+
+  }
+  div#resume h1 {
+    margin: 0 0 16px 0;
+    padding: 0 0 16px 0;
+    font-weight: bold;
+    border-bottom: 1px solid #999;
+    line-height: 50px
+  }
+  .studies table {
+    font-family: Verdana;
+    border-collapse:collapse;
+    width: 100%;
+}
+
+.studies th, .studies td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.studies th {
+    background-color: #eeeeee;
+}
+
+  div#resume a {
+    color: #999;
+    text-decoration: none;
+    border-bottom: 1px dotted #999
+  }
+  
+  div#resume a:hover {
+    border-bottom-style: solid;
+    color: #000
+  }
+  
+  
+  div#resume img {
+    float: right;
+    padding: 10px;
+    background: #fff;
+    margin: 0 30px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, .3);
+    width: 30%;
+    max-width: 220px
+  }
+.awards table {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-collapse:collapse;
+    width: 100%;
+}
+
+.awards th, .awards td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.awards th {
+    background-color: #eeeeee;
+}
+footer {
+    text-align: center;
+    padding: 5px;
+    background-color: #000000;
+    color: #ffffff;
+  }
+
+  
